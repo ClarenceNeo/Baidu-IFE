@@ -1,0 +1,121 @@
+/*全局*/
+body{margin: 0; 
+	 color: #333; 
+	 background-color: #eee; 
+	 font-family: "microsoft yahei"; 
+	 font-size: 12px; 
+	}
+img{max-width: 100%;}
+button{cursor: pointer;}
+header{background: #f3bf45; 
+	   padding: 10px 0
+	  }
+footer{background: #000; 
+	   color: #fff; 
+	   text-align: center;  
+	   line-height: 6em;
+	  }
+.main-nav, .content, aside{width: 1000px; 
+	                       margin: 0 auto 
+	                      } 
+/*导航栏*/
+.main-nav .logo{width: 100px;}
+.main-nav {position: relative;}
+.nav-links{margin: 0; 
+	      padding: 0; 
+	      position: absolute; 
+	      list-style-position: inside; 
+	      right: 0; 
+	      top: 50%; 
+	      margin-top: -0.6em; 
+	      font-size: 12px;
+	      }
+.nav-links:after{content: ''; 
+                 display: block; 
+                 clear: both;
+                }
+.nav-links li{float: left; 
+	          margin-left: 5px;
+	         }
+.nav-links a{color: #fff;  
+	         text-decoration: none
+	        }
+.nav-links a:visited{color: #fff}
+/*文章区*/
+article{padding: 20px; 
+	    margin-top: 20px; 
+	    background-color: #fff; 
+	    box-shadow: 2px 2px 2px #aaa;
+	   }
+article h2{font-size: 1.5em}
+article h3{font-size: 1.3em; 
+	       color: #777
+	      }
+article .author, article .addtime{color: #999}
+article p{text-indent: 2em;  
+	      font-size: 14px;
+	     }	
+/*图片列表*/
+.pic-list{list-style: none}
+.pic-list li{width: 120px; 
+	         border: 1px #ccc solid; 
+	         padding: 0 10px 10px 10px; 
+	         text-align: center; 
+	         margin-bottom: 20px;
+            }
+.pic-list h1{font-size: 12px; 
+	         font-weight: normal
+	        }
+/*表格*/
+table{border: 0; 
+	  width: 100%; 
+	  border-collapse: collapse
+	 }
+td, th{border: 0; 
+	   padding: 5px; 
+	   border: 1px #ccc solid; 
+	  }
+th{background: #333; color: #fff; 
+   text-align: left
+  }
+tr:last-child{background: #ccc; 
+	          font-weight: bold
+	         }
+/*侧边栏*/
+aside{box-sizing:border-box; 
+	  padding: 20px; 
+	  margin-top: 20px; 
+	  background-color: #fff; 
+	  box-shadow: 2px 2px 2px #aaa; 
+	  margin-bottom: 20px;
+	 }
+aside h1{border-left: 3px #ccc solid; 
+	     line-height: 2em; 
+	     padding-left: 10px; 
+	     margin: 0;
+	    }
+aside input, aside textarea{border: 1px #999 solid; 
+	                        outline: none; 
+	                       }
+aside input{padding: 3px}
+aside form > div{margin: 10px 0}
+aside .input-title{width: 30%; 
+	               display: inline-block; 
+	               vertical-align: top; 
+	               text-align: right; 
+	               margin-right: 10px;
+	              }
+aside .input-tip{margin-left: 30%; 
+	             padding-left: 10px;
+	            }
+aside textarea{height: 50px; 
+	           width: 400px; 
+	          }
+aside button{background: rgb(28, 99, 221); 
+	         line-height: 3em; 
+	         border-radius: 5px; 
+	         border: 0; 
+	         outline: none; 
+	         color: #fff; 
+	         width: 100%;
+	        }      
