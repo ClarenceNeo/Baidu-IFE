@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>自定义 checkbox, radio 样式</title>
+  <style type="text/css">
+    .image {
+      width: 0;
+      margin: 0 auto;
+    }
+    #m-check, #m-radio {
+      display: none;
+    }
+    .m-def {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background-image: url(http://oeryvxt85.bkt.clouddn.com/2017-02-24-check.png);
+      background-repeat: no-repeat;
+    }
+    .m-check {
+      background-position: -25px -33px;
+    }
+    #m-check:checked + label {
+      background-position: -60px -32px;
+    }
+    .m-radio {
+      background-position: -24px -10px;
+    }
+    #m-radio:checked + label {
+      background-position: -59px -10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="image">
+    <input type="checkbox" name="list" id="m-check">
+    <label for="m-check" class="m-def m-check"></label>
+
+    <input type="radio" name="rad" id="m-radio">
+    <label for="m-radio" class="m-def m-radio"></label>
+  </div>
+</body>
+</html>
